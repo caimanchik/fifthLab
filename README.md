@@ -43,10 +43,19 @@
 
 Далее с помощью команды `tensorboard --logdir=results` запустил tensorboard на локалке по адресу `http://localhost:6006` и получил следующие графики
 
-<img width="1792" alt="Снимок экрана 2022-12-02 в 22 02 26" src="https://user-images.githubusercontent.com/79734984/205345875-8ae6d225-6d1c-49e4-9e54-af87c003c1fb.png">
-
+<img width="1792" alt="Снимок экрана 2022-12-02 в 23 08 02" src="https://user-images.githubusercontent.com/79734984/205357839-17dd455d-de0d-4db5-83df-63200d6827e1.png">
 
 ## Задание 2
+
+Первым я решил попробовать поменять параметр `learning_rate` с `3e-4` на `1e-3`
+
+<img width="1792" alt="Снимок экрана 2022-12-02 в 23 11 44" src="https://user-images.githubusercontent.com/79734984/205358524-6dfc8483-d3fb-46b5-9167-c0b18aab0e7d.png">
+
+
+Далее я изменил количество слоев `num_layers` до 7
+
+<img width="1792" alt="Снимок экрана 2022-12-02 в 22 24 50" src="https://user-images.githubusercontent.com/79734984/205350042-88964d79-e9c8-4e80-9f51-ad9718b0e633.png">
+
 
 ## Задание 3. 
 
