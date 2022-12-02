@@ -37,6 +37,15 @@
 
 ## Задание 1.
 
+Активировал пространство из 3 лабораторной работы, предварительно утсановив туда `tensorflow`. Запустил `mlagents` и сцену в Unity сразу с 12 сценами. Получил `Mean Reward = 1.000` уже через 10000 шагов
+
+<img width="500" alt="Снимок экрана 2022-12-02 в 21 50 08" src="https://user-images.githubusercontent.com/79734984/205344767-10ef7832-ada0-4468-8833-05a49750826c.png"><img width="510" alt="Снимок экрана 2022-12-02 в 21 50 08" src="https://user-images.githubusercontent.com/79734984/205344777-cbf91c6e-e9cf-4658-8396-01e269068c75.png">
+
+Далее с помощью команды `tensorboard --logdir=results` запустил tensorboard на локалке по адресу `http://localhost:6006` и получил следующие графики
+
+<img width="1792" alt="Снимок экрана 2022-12-02 в 22 02 26" src="https://user-images.githubusercontent.com/79734984/205345875-8ae6d225-6d1c-49e4-9e54-af87c003c1fb.png">
+
+
 ## Задание 2
 
 ## Задание 3. 
